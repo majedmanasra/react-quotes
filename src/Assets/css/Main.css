@@ -1,0 +1,16 @@
+@import url(../../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+.random-text-row {
+  display: flex; }
+  .random-text-row .favorite-icon {
+    width: 30px;
+    margin-right: 2px;
+    cursor: pointer; }
+    .random-text-row .favorite-icon .favorite-on {
+      color: #cbcb51; }
+    .random-text-row .favorite-icon .favorite-off {
+      color: #D5D5D5; }
+      .random-text-row .favorite-icon .favorite-off:hover {
+        color: #DBDB00; }
+
+.dashboard-page .search-texts {
+  margin-bottom: 20px; }

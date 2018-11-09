@@ -1,0 +1,21 @@
+.random-text-row {
+  display: flex;
+
+  .favorite-icon {
+    width: 30px;
+    margin-right: 2px;
+    cursor: pointer;
+
+    .favorite-on {
+      color: $chartreuseYellow;
+    }
+
+    .favorite-off {
+      color: $lightGrey;
+
+      &:hover {
+        color: $sslightGrey;
+      }
+    }
+  }
+}
