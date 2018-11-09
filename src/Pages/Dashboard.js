@@ -27,7 +27,7 @@ class Dashboard extends Component {
 
                 <input className={"form-control search-texts"} type="text" onChange={this.handleChange} placeholder={"Search..."}/>
 
-                {filterString && filteredText.length > 0 && <p>We have found <Badge>{filteredText.length}</Badge> random text{filteredText.length === 1? '': 's'} for you.</p>}
+                {filterString && filteredText.length > 0 && <p>We have found <Badge>{filteredText.length}</Badge> quote{filteredText.length === 1? '': 's'} for you.</p>}
 
                 {filteredText.length > 0 && <ListGroup>
                     {filteredText.map(t => <RandomTextRow randomText={t} />)}

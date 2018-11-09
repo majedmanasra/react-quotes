@@ -14,7 +14,7 @@ class Favorites extends Component {
 
         return (
             <div>
-                <PageHeader>Your favorites quotes</PageHeader>
+                <PageHeader>Your favorite quotes</PageHeader>
                 {favorites.map(t => <RandomTextRow randomText={t}/>)}
                 {favorites.length === 0 && <Alert>You have no quotes in your favorite.</Alert>}
             </div>
