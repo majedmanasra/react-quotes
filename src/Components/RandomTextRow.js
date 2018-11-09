@@ -11,7 +11,9 @@ class RandomTextRow extends Component {
 
     toggleFavorite = (randomText) => {
         randomText.isFavorite? this.props.removeFromFavorite(randomText.id): this.props.addToFavorite(randomText.id);
-        this.forceUpdate();
+
+        // TODO: don't use force update
+        this.forceUpdate(); // Because its deep nested, the change won't get detected (should use immutable js)
     };
 
     render() {
