@@ -32,6 +32,6 @@ class RandomTextRow extends Component {
 }
 
 export default connect(null, dispatch => ({
-    addToFavorite: (name) => dispatch(addToFavorite(name)),
-    removeFromFavorite: (name) => dispatch(removeFromFavorite(name))
+    addToFavorite: (id) => dispatch(addToFavorite(id)),
+    removeFromFavorite: (id) => dispatch(removeFromFavorite(id))
 }))(RandomTextRow);
