@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
-import Dashboard from "./Pages/Dashboard";
-import {PATH_DASHBOARD, PATH_FAVORITES} from "./Utils/paths";
-import AuthenticatedLayout from "./Layout/AuthenticatedLayout";
-import Favorites from "./Pages/Favorites";
+import Dashboard from "./pages/Dashboard";
+import {PATH_DASHBOARD, PATH_FAVORITES} from "./utils/paths";
+import AuthenticatedLayout from "./layout/AuthenticatedLayout";
+import Favorites from "./pages/Favorites";
 
 class AppRouter extends Component {
     static defaultProps = {};

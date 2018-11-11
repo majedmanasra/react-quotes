@@ -1,4 +1,4 @@
-import {ADD_TO_FAVORITES, FETCH_RANDOM_TEXT_SUCCESS, REMOVE_FROM_FAVORITES} from "../Constants/randomTextConstants";
+import {ADD_TO_FAVORITES, FETCH_RANDOM_TEXT_SUCCESS, REMOVE_FROM_FAVORITES} from "../constants/randomTextConstants";
 
 const initialState = {
     data: [],

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {applyMiddleware, createStore} from "redux";
 import {Provider} from "react-redux";
-import reducers from "./Reducers";
+import reducers from "./reducers";
 import AppRouter from "./AppRouter";
 import AppWrapper from "./AppWrapper";
 import createSagaMiddleware from 'redux-saga'
-import mySaga from "./Saga/Saga";
+import mySaga from "./saga/Saga";
 
 class App extends Component {
   render() {

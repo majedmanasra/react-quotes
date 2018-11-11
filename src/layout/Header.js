@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {MenuItem, Nav, Navbar, NavDropdown, NavItem} from "react-bootstrap";
 import {withRouter} from "react-router-dom";
-import {PATH_DASHBOARD, PATH_FAVORITES} from "../Utils/paths";
+import {PATH_DASHBOARD, PATH_FAVORITES} from "../utils/paths";
 
 class Header extends Component {
     static defaultProps = {};

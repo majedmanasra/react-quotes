@@ -1,4 +1,4 @@
-import {ADD_TO_FAVORITES, RANDOM_TEXT_FETCH_REQUESTED, REMOVE_FROM_FAVORITES} from "../Constants/randomTextConstants";
+import {ADD_TO_FAVORITES, RANDOM_TEXT_FETCH_REQUESTED, REMOVE_FROM_FAVORITES} from "../constants/randomTextConstants";
 
 export function addToFavorite(id) {
     return {

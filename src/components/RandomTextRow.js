@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {Col, Glyphicon, ListGroupItem, PageHeader, Row} from "react-bootstrap";
-import {addToFavorite, removeFromFavorite} from "../Actions/randomTextsActions";
+import {addToFavorite, removeFromFavorite} from "../actions/randomTextsActions";
 import {connect} from "react-redux";
 
 class RandomTextRow extends Component {

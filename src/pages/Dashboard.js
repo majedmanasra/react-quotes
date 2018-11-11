@@ -2,7 +2,7 @@ import React, {Component, Fragment} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
 import {Alert, Badge, ListGroup, PageHeader, Row} from "react-bootstrap";
-import RandomTextRow from "../Components/RandomTextRow";
+import RandomTextRow from "../components/RandomTextRow";
 
 class Dashboard extends Component {
     static defaultProps = {};

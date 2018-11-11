@@ -1,5 +1,5 @@
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects'
-import {FETCH_RANDOM_TEXT_SUCCESS, RANDOM_TEXT_FETCH_REQUESTED} from "../Constants/randomTextConstants";
+import {FETCH_RANDOM_TEXT_SUCCESS, RANDOM_TEXT_FETCH_REQUESTED} from "../constants/randomTextConstants";
 import axios from 'axios';
 
 function* fetchRandomTexts() {

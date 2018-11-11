@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {fetchRandomTexts} from "./Actions/randomTextsActions";
+import {fetchRandomTexts} from "./actions/randomTextsActions";
 import {connect} from "react-redux";
-import Header from "./Layout/Header";
+import Header from "./layout/Header";
 
 class AppWrapper extends Component {
     static defaultProps = {};
